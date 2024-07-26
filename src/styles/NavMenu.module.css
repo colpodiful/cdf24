@@ -1,0 +1,106 @@
+/* styles/NavMenu.module.css */
+.navHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menuButton {
+    font-size: 25.5px; /* Reduced from 30px by 15% */
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003366; /* Azul rey */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.navContent {
+    padding: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 15px 0;
+}
+
+.nav ul li a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 21.25px; /* Reduced from 25px by 15% */
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: #575757;
+}
+
+.nav .closeButton {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 30.6px; /* Reduced from 36px by 15% */
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.open {
+    width: 250px;
+}
+
+.container {
+    margin-top: 80px; /* Adjusted for fixed navHeader */
+    padding: 20px;
+}
+
+.active {
+    background-color: #4CAF50; /* Active link color */
+}
+
+@media screen and (max-width: 768px) {
+    .nav ul li a {
+        font-size: 17px; /* Reduced from 20px by 15% */
+    }
+
+    .nav .closeButton {
+        font-size: 25.5px; /* Reduced from 30px by 15% */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav ul li a {
+        font-size: 15.3px; /* Reduced from 18px by 15% */
+    }
+
+    .nav .closeButton {
+        font-size: 21.25px; /* Reduced from 25px by 15% */
+    }
+}

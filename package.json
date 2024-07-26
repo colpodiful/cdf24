@@ -1,0 +1,33 @@
+{
+  "name": "proyecto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "axios": "^1.7.2",
+    "cloudinary": "^2.2.0",
+    "instafeed.js": "^2.0.0",
+    "instagram-web-api": "^2.2.2",
+    "js-cookie": "^3.0.5",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.7",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^22.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.4",
+    "tough-cookie-filestore2": "^1.0.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "globals": "^15.8.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

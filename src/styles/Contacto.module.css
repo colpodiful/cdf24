@@ -1,0 +1,34 @@
+.container {
+    padding: 20px;
+    background-color: #FFF0DB; /* Fondo del contenedor */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 60px auto; /* Reducir el margen superior e inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+    color: #D66A00; /* Color del título */
+}
+
+.p {
+    color: #D66A00; /* Color del párrafo */
+}
